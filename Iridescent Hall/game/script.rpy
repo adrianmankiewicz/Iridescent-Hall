@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Eileen", color="#dcffcc")
 
 
 # The game starts here.
@@ -27,6 +27,13 @@ label start:
     e "You've created a new Ren'Py game."
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
+
+    e "Examples will show up in a window like the one above. You'll need to click outside of the example window in order to advance the tutorial."
+
+    e "When an example is bigger than the screen, you can scroll around in it using the mouse wheel or by simply dragging the mouse."
+
+    e "Script might seem scary at first, but if you look you'll see it's easy to match it up to what I'm saying."
+ 
 
     # This ends the game.
 
