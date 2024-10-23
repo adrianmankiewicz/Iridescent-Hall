@@ -32,7 +32,35 @@ label start:
 
     e "When an example is bigger than the screen, you can scroll around in it using the mouse wheel or by simply dragging the mouse."
 
-    e "Script might seem scary at first, but if you look you'll see it's easy to match it up to what I'm saying."
+    e "Do you understand me??"
+ 
+    menu:
+
+        "Yes, I do.":
+            jump choice1_yes
+
+        "No, I don't.":
+            jump choice1_no
+
+    label choice1_yes:
+
+        $ menu_flag = True
+
+        e "Good."
+
+        jump choice1_done
+
+    label choice1_no:
+
+        $ menu_flag = False
+
+        e "Idiot."
+
+        jump choice1_done
+
+    label choice1_done:
+
+        # ... the game continues here.
  
 
     # This ends the game.
