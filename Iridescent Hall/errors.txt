@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 31: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    e "Examples will show up in a window like the one above. You'll need to click outside of the example window in order to advance the tutorial."
+File "game/script.rpy", line 41: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    xalign 0.5:
     ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Wed Oct 23 14:38:01 2024
+Wed Nov  6 14:25:31 2024

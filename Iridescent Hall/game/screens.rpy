@@ -219,7 +219,7 @@ style choice_button is button
 style choice_button_text is button_text
 
 style choice_vbox:
-    xalign 0.5
+    xalign 0.1 # (0.5 przesunięcie w lewo względem osi x)
     ypos 540
     yanchor 0.5
 
